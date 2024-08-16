@@ -241,10 +241,28 @@ nav ul li a:hover::after {
     }
 
     nav ul{
-      display: none;
+      background-color: rgba(121, 121, 121, 0.61);
+      backdrop-filter: blur(8px);
+      position: fixed;
+      top: 0;
+      right: -200px;
+      width: 200px;
+      height: 100vh;
+      padding-top: 50px;
+      transition: all 0.6s;
+    }
+    nav ul .fa-solid{
+      position: absolute;
+      top: 25px;
+      left: 28px;
+    }
+    nav ul li{
+      display: block;
+      padding: 10px 25%;
     }
     nav .fa-solid{
       display: block;
+      font-size: 25px;
     }
   
   }
