@@ -239,6 +239,9 @@ nav ul li a:hover::after {
     .header-text h1{
       font-size: 30px;
     }
+    .header-text{
+      margin-top:145%;
+    }
 
     nav ul{
       background-color: rgba(121, 121, 121, 0.61);
@@ -264,5 +267,14 @@ nav ul li a:hover::after {
       display: block;
       font-size: 25px;
     }
+
+    /* ------------About section-------------- */
+    .row{
+      flex-direction: column;
+    }
   
+    .work-list{
+      flex-direction: column;
+      gap: 25px;
+    }
   }
