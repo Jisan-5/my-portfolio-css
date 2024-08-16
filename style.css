@@ -6,6 +6,9 @@
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 body{
   background: #080808;
@@ -19,6 +22,7 @@ header{
   height: 100vh;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 /* Nav section Start  */
 .container{
@@ -94,6 +98,10 @@ nav ul li a:hover::after{
 .about-col-1 img{
   width: 100%;
   border-radius: 16px;
+  transition: transform 0.6s;
+}
+.about-col-1 img:hover{
+  transform: scale(0.98);
 }
 .about-col-2{
   flex-basis: 60%;
